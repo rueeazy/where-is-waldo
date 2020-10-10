@@ -1,0 +1,37 @@
+.home {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-evenly;
+    height: 80%;
+    width: 100%;
+    margin: 1rem;
+
+
+    .picture {
+        width: 75%;
+        height: 100%;
+        border: 1px solid red;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
+        margin-right: .5rem;
+    }
+
+    .info-panel {
+        width: 25%;
+        height: 100%;
+        border: 1px solid purple;
+        margin-left: .5rem;
+    }
+}
