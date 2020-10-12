@@ -7,11 +7,13 @@ const InfoPanel = (props) => {
         <div className="info-panel">
             <Timer />
             <div className="names-container">
-                <Character />
-                <Character />
-                <Character />
-                <Character />
-                <Character />
+            {props.characters.map(character => {
+                return <Character
+                        key={character.id}
+                        name={character.name} 
+                        found={character.found}
+                        />
+            })}
             </div>
         </div>
     )

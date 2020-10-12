@@ -40,6 +40,7 @@ const Picture = (props) => {
             console.log("Yay!")
             setCharactersFound(charactersFound + 1)
             addFoundWindow();
+            props.markCharacterFound(characterApiData.id - 1);
         }
         else console.log("damn")
         //Remove window/selection box here
