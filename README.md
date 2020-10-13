@@ -1,24 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project is part of The Odin Project's Curriculum [https://www.theodinproject.com/lessons/where-s-waldo-a-photo-tagging-app-javascript]
 
-Things you may want to cover:
+The final project can be viewed here. [https://damp-harbor-73414.herokuapp.com/]
 
-* Ruby version
+This project was built with 
 
-* System dependencies
+- React JS
+- HTML
+- CSS/SASS
+- Ruby on Rails backend
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+For this projected I created a Where's Waldo game using a React JS front end. The user is able to search for several characters and once a selected guess is made, an API call is made the the backend to verify that the coordinates selected belong to the correct character.
