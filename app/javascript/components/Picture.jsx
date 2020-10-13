@@ -36,14 +36,12 @@ const Picture = (props) => {
         let guessX = props.xPos
         let guessY = props.yPos
         if(confirmationBoolean(charX, charY, guessX, guessY)) {
-            ////// HERE IS WHERE WE RUN PROPS FUNCTION TO CHANGE CHARACTER STATE COUNT AND LEAVE WINDOW
             console.log("Yay!")
             setCharactersFound(charactersFound + 1)
             addFoundWindow();
             props.markCharacterFound(characterApiData.id - 1);
         }
-        else console.log("damn")
-        //Remove window/selection box here
+        else return
     }
 
     //Get true or false if guess Character Coors are within APIcharacter.coors
