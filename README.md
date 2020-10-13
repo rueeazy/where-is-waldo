@@ -2,7 +2,7 @@
 
 This project is part of The Odin Project's Curriculum [https://www.theodinproject.com/lessons/where-s-waldo-a-photo-tagging-app-javascript]
 
-The final project can be viewed here. [https://damp-harbor-73414.herokuapp.com/]
+The final project can be viewed here. [https://top-where-is-waldo.herokuapp.com/]
 
 This project was built with 
 
